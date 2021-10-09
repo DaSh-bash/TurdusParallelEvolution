@@ -13,7 +13,7 @@ GenomeScan folder contains preliminary graphs
 # To do:
 ### PLAN:
 #### Fig.1 Manhattan plot
-	Remap genome
+	Remap genome (bwa, STAMPY)
 	Plot
 #### Fig. 2 Types of substitutions
 	Remap genome
