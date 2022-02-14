@@ -23,3 +23,9 @@ GenomeScan folder contains preliminary graphs
 	Choose genes
 	Choose software
 	RAxML
+
+
+How to ~~train your dragon~~ get your isoforms:
+sed '/>/d' TAT_A_3754_ATCACG_trimmed.XP_032908953.HERC2.exon.fasta > TAT_A_3754_ATCACG_trimmed.XP_032908953.HERC2.exon.tst.fasta
+echo $(cat TAT_A_3754_ATCACG_trimmed.XP_032908953.HERC2.exon.tst.fasta) > tst2.txt
+sed  's/ //g' tst2.txt > tst_for_aln.fasta
