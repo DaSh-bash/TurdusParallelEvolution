@@ -1,6 +1,9 @@
 # Parallel Evolution in Turdus
 
 
+Google Doc:
+https://docs.google.com/document/d/13vqfp9LtZSgs3QCbmtYTmZpidZOh6sTw8f6pTtfI3xQ/edit#heading=h.14rhhgnzghmt
+
 ## To do (February):
 - Manhattan plot (4 comparisons)
 - Prepare fasta for alignments:  
