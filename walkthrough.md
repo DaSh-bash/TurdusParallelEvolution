@@ -40,3 +40,8 @@ cat TAT_A_3754_ATCACG_trimmed.FAM78A.tst_for_aln.fasta TAT_A_3754_ATCACG_trimmed
 https://www.ebi.ac.uk/goldman-srv/cgi-bin/results.cgi?jobid=prank-S20220608-054448-0486-92906551-p2m&title=turdus_prank.fasta
 
 (Turdus_naumani2TNAA:0.0118,(((Turdus_eunomus1:0.0064,Turdus_naumani1TNA1:0.0059):0.0002,Turdus_atrogularis1:0.008):0.0005,((Turdus_ruficolis1:0.0075,Turdus_ruficolis2:0.0046):0.002,Turdus_atrogularis2:0.0097):0.0013):0.0009);
+
+
+September 2
+Repeat masking completed
+Working with PAML
