@@ -1,0 +1,92 @@
+dN/dS sketches:
+
+Title:
+Description
+  Analysis ====================
+    Analysis                                  = ====================
+       Scope                                  = Pairs of taxa
+    Estimate Variance                         = ====================
+       Variance Estimation Method             = None
+    Substitution Model                        = ====================
+       Substitutions Type                     = Syn-Nonsynonymous
+          Genetic Code Table                  = Standard
+       Model/Method                           = Nei-Gojobori method (Jukes-Cantor)
+       Substitutions to Include               = s: Synonymous only
+    Rates and Patterns                        = ====================
+       Rates among Sites                      = Uniform Rates
+       Pattern among Lineages                 = Same (Homogeneous)
+    Data Subset to Use                        = ====================
+       Gaps/Missing Data Treatment            = Pairwise deletion
+
+[1] #Catharus_ustulatus_OCA2.isoform_X1
+[2] #Turdus_eunomus_OCA2.isoform_X1
+[3] #Turdus_naumani_1_OCA2.isoform_X1
+[4] #Turdus_naumani_2_OCA2.isoform_X1
+[5] #Turdus_ruficolis_1_OCA2.isoform_X1
+[6] #Turdus_ruficolis_2_OCA2.isoform_X1
+[7] #Turdus_atrogularis_1_OCA2.isoform_X1
+[8] #Turdus_atrogularis_2_OCA2.isoform_X1
+
+[              1            2            3            4            5            6            7            8 ]
+[1]
+[2]  0.0199655284
+[3]  0.0205592903 0.0000000000
+[4]  0.0217906624 0.0028735667 0.0029520333
+[5]  0.0199916643 0.0000000000 0.0000000000 0.0028770114
+[6]  0.0199916643 0.0000000000 0.0000000000 0.0028770114 0.0000000000
+[7]  0.0201041114 0.0014219699 0.0014625233 0.0014449132 0.0014236569 0.0014236569
+[8]  0.0186033864 0.0000000000 0.0000000000 0.0028846189 0.0000000000 0.0000000000 0.0014239947
+
+Table. Estimates of Codon-based Evolutionary Divergence between Sequences
+The number of synonymous substitutions per synonymous site from between sequences are shown. Analyses were conducted using the Nei-Gojobori model [1]. This analysis involved 8 nucleotide sequences. All ambiguous positions were removed for each sequence pair (pairwise deletion option). There were a total of 1060 positions in the final dataset. Evolutionary analyses were conducted in MEGA11 [2][3]
+
+1. Nei M. and Gojobori T. (1986). Simple methods for estimating the numbers of synonymous and nonsynonymous nucleotide substitutions. Molecular Biology and Evolution 3:418-426.
+2. Tamura K., Stecher G., and Kumar S. (2021). MEGA 11: Molecular Evolutionary Genetics Analysis Version 11. Molecular Biology and Evolution https://doi.org/10.1093/molbev/msab120.
+3. Stecher G., Tamura K., and Kumar S. (2020). Molecular Evolutionary Genetics Analysis (MEGA) for macOS. Molecular Biology and Evolution 37:1237-1239.
+Disclaimer: Although utmost care has been taken to ensure the correctness of the caption, the caption text is provided "as is" without any warranty of any kind. Authors advise the user to carefully check the caption prior to its use for any purpose and report any errors or problems to the authors immediately (www.megasoftware.net).
+
+
+Title:
+Description
+  Analysis ====================
+    Analysis                                  = ====================
+       Scope                                  = Pairs of taxa
+    Estimate Variance                         = ====================
+       Variance Estimation Method             = None
+    Substitution Model                        = ====================
+       Substitutions Type                     = Syn-Nonsynonymous
+          Genetic Code Table                  = Standard
+       Model/Method                           = Nei-Gojobori method (Jukes-Cantor)
+       Substitutions to Include               = n: Nonsynonymous only
+    Rates and Patterns                        = ====================
+       Rates among Sites                      = Uniform Rates
+       Pattern among Lineages                 = Same (Homogeneous)
+    Data Subset to Use                        = ====================
+       Gaps/Missing Data Treatment            = Pairwise deletion
+
+[1] #Catharus_ustulatus_OCA2.isoform_X1
+[2] #Turdus_eunomus_OCA2.isoform_X1
+[3] #Turdus_naumani_1_OCA2.isoform_X1
+[4] #Turdus_naumani_2_OCA2.isoform_X1
+[5] #Turdus_ruficolis_1_OCA2.isoform_X1
+[6] #Turdus_ruficolis_2_OCA2.isoform_X1
+[7] #Turdus_atrogularis_1_OCA2.isoform_X1
+[8] #Turdus_atrogularis_2_OCA2.isoform_X1
+
+[              1            2            3            4            5            6            7            8 ]
+[1]
+[2]  0.0172675413
+[3]  0.0168144916 0.0016701468
+[4]  0.0184167462 0.0024899732 0.0000000000
+[5]  0.0177206046 0.0020449910 0.0000000000 0.0004153111
+[6]  0.0177206046 0.0020449910 0.0000000000 0.0004153111 0.0000000000
+[7]  0.0194554043 0.0028742550 0.0012591378 0.0012509124 0.0012330881 0.0012330881
+[8]  0.0177927109 0.0008206812 0.0016791443 0.0020850722 0.0016457526 0.0016457526 0.0016464864
+
+Table. Estimates of Codon-based Evolutionary Divergence between Sequences
+The number of nonsynonymous substitutions per nonsynonymous site from between sequences are shown. Analyses were conducted using the Nei-Gojobori model [1]. This analysis involved 8 nucleotide sequences. All ambiguous positions were removed for each sequence pair (pairwise deletion option). There were a total of 1060 positions in the final dataset. Evolutionary analyses were conducted in MEGA11 [2][3]
+
+1. Nei M. and Gojobori T. (1986). Simple methods for estimating the numbers of synonymous and nonsynonymous nucleotide substitutions. Molecular Biology and Evolution 3:418-426.
+2. Tamura K., Stecher G., and Kumar S. (2021). MEGA 11: Molecular Evolutionary Genetics Analysis Version 11. Molecular Biology and Evolution https://doi.org/10.1093/molbev/msab120.
+3. Stecher G., Tamura K., and Kumar S. (2020). Molecular Evolutionary Genetics Analysis (MEGA) for macOS. Molecular Biology and Evolution 37:1237-1239.
+Disclaimer: Although utmost care has been taken to ensure the correctness of the caption, the caption text is provided "as is" without any warranty of any kind. Authors advise the user to carefully check the caption prior to its use for any purpose and report any errors or problems to the authors immediately (www.megasoftware.net). In no event shall the authors and their employers be liable for any damages, including but not limited to special, consequential, or other damages. Authors specifically disclaim all other warranties expressed or implied, including but not limited to the determination of suitability of this caption text for a specific purpose, use, or application.
