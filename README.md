@@ -13,10 +13,17 @@ https://docs.google.com/document/d/13vqfp9LtZSgs3QCbmtYTmZpidZOh6sTw8f6pTtfI3xQ/
 1. Use RAxML + MrBayes for new phylogeny
 
 **Figure 3**:
-1. **N** Filter vcf file (incl. repeats)
+1. **N** Filter vcf file (incl. repeats)  
+ For repeats use bedtools, like:  
+ `bedtools subtract -a no_missing.recode.vcf.gz -b pacbio.prim.assembly.fasta.out.gff > no_missing.recode.no_repeats.vcf`
+
+ Annotation can be download from here:
+ https://www.dropbox.com/s/q9rfycin6k5jwbr/GCF_009819885.2_bCatUst1.pri.v2_genomic.fna.out.gff?dl=0
+
+
 2. **N** Calculate segregating SNPs + parallel SNP (rerun scripts)
 3. Replot with an extra individual, separate chromosomes
-4. 
+4. Check elevated Fst regions
 
 **Figure 4**:  
 1. **N** Extract all genes for new individual
