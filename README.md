@@ -13,11 +13,16 @@ https://docs.google.com/document/d/13vqfp9LtZSgs3QCbmtYTmZpidZOh6sTw8f6pTtfI3xQ/
 1. Use RAxML + MrBayes for new phylogeny
 
 **Figure 3**:
-1. Filter vcf file (incl. repeats)
-1. Calculate segregating SNPs + parallel SNP (rerun scripts)
-1. Replot with an extra individual, separate chromosomes
+1. **N** Filter vcf file (incl. repeats)
+2. **N** Calculate segregating SNPs + parallel SNP (rerun scripts)
+3. Replot with an extra individual, separate chromosomes
+4. 
 
 **Figure 4**:  
+1. **N** Extract all genes for new individual
+2. **N** Fix the OCA2 problem
+3. Calculae dN/dS for all the genes  
+4. Classify SNPs based on effect
 
 
 
