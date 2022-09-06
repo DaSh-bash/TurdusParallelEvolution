@@ -4,7 +4,36 @@
 Google Doc:
 https://docs.google.com/document/d/13vqfp9LtZSgs3QCbmtYTmZpidZOh6sTw8f6pTtfI3xQ/edit#heading=h.14rhhgnzghmt
 
-## To do (February):
+### To do (Septemeber):
+**Figure 1**:  
+1. Analyse acoustic data, present sonogram  
+2. Replot with sampling locations
+
+**Figure 2**:
+1. Use RAxML + MrBayes for new phylogeny
+
+**Figure 3**:
+1. Filter vcf file (incl. repeats)
+1. Calculate segregating SNPs + parallel SNP (rerun scripts)
+1. Replot with an extra individual, separate chromosomes
+
+**Figure 4**:  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### To do (February):
 - Manhattan plot (4 comparisons)
 - Prepare fasta for alignments:  
 
