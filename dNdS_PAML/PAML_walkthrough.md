@@ -133,3 +133,42 @@ RUNS!!!!
 omega (dN/dS) =  1.32212
 
 BUT SOMETHING IS WRONG! there are stop Codons
+
+PAML
+Needs files:
+tree - thrush.tre
+nucleotides - <name_of_the_gene>.phylip
+
+
+For all runs:
+**thrush.tre**
+(((Turdus_eun,Turdus_nau),(Turdus_ruf,Turdus_atr)),Catharus_u);
+
+**configuration file**
+Starts with:
+
+seqfile = OCA2.phylip * sequence data filename
+treefile = thrush.tre      * tree structure file name
+outfile = OCA2.out           * main result file name
+
+**nucleotides**
+python
+from Bio import SeqIO
+records = SeqIO.parse("OCA2.fasta", "fasta")
+count = SeqIO.write(records, "OCA2.phylip", "phylip")
+
+Fasta should look like:
+
+1. Проверить количество нуклеотидов в fasta, должно быть кратно 3
+2. Выбрать по одной из птиц каждого вида и по одной изоформе
+3. Сделать новые фаста файлы (по одному на ген), сменить все имена на Catharus_u, Turdus_ruf, Turdus_eun, Turdus_nau, Turdus_atr
+>Catharus_u
+gcttCATTTATGAGTGTGCAGAGAATGCAATGTCA
+>Turdus_ruf
+GCTTCATTTATGAGTGTGCAGAGAATGCAATGTCA
+>Turdus_eun
+GCTTCATGTATGAGTGTGCAGAGAATGCAATGTCA
+>Turdus_nau
+GCTTCATTTATGAGTGTGCAGAGAATGCAATGTCA
+>Turdus_atr
+GCTTCATGTATGAGTGTGCAGAGAATGCAATGTCA
