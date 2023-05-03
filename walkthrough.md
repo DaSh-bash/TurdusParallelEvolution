@@ -48,3 +48,24 @@ Working with PAML
 
 April
 Give a link to th  
+
+
+3 May 2022
+
+Organizing files:
+
+READ.ME
+
+
+RawReads folder contains original data and metadata
+Assembly folder contains various assemblies of the Turdus eunomus genome
+TrimmedReads folder contains original rads trimmed and prepared for the analysis
+
+3.05.2023 DSh
+
+
+00_TEannotoation contains TE library for birds from Uppsala University and Swainson's thursh Assembly
+01_MappingToEunomusAssembly contains our assembly of T.eunomus genome, index and mapped reads
+02_PAML ongoing PAML analysis
+03_ReadCleaning_Discontinued earlier attempt to clean reads from contamination for genome assembly
+04_FastQC_ReadQualityControl control for raw rads
