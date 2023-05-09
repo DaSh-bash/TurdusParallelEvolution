@@ -4,13 +4,13 @@
 Google Doc:
 https://docs.google.com/document/d/13vqfp9LtZSgs3QCbmtYTmZpidZOh6sTw8f6pTtfI3xQ/edit#heading=h.14rhhgnzghmt
 
-### To do (Septemeber):
+### To do:
 **Figure 1**:  
 1. Analyse acoustic data, present sonogram  
 2. Replot with sampling locations
 
 **Figure 2**:
-1. Use RAxML + MrBayes for new phylogeny
+1. Make new phylogeny
 
 **Figure 3**:
 1. **N** Filter vcf file (incl. repeats)  
