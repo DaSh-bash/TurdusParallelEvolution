@@ -1,3 +1,7 @@
+RUnning
+
+
+
 cd Thrush/02_PAML/
 module load paml/4.9
 codeml codeml.ctl
